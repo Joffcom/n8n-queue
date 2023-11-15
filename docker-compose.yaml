@@ -36,7 +36,6 @@ services:
     restart: always
     environment:
       - NODE_ENV=production
-      # - EXECUTIONS_PROCESS=main
       - EXECUTIONS_MODE=queue
       - EXECUTIONS_WORKER=queue
       - EXECUTIONS_WORKER_PROCESS=4
