@@ -11,6 +11,7 @@ services:
       - N8N_BASIC_AUTH_PASSWORD
       - N8N_HOST=localhost
       - N8N_PROTOCOL=http
+      - VUE_APP_URL_BASE_API=http://localhost
       - WEBHOOK_TUNNEL_URL=http://localhost/
       - N8N_ENCRYPTION_KEY=7EDA4A16526FF8AE75EDA7100EF0E7A8C0E753D5
       - DB_TYPE=postgresdb
