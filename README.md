@@ -1,5 +1,5 @@
 # n8n-queue
-This repository is for configure n8n + redis + postgreSQL + workers
+This is for testing not production
 
 # Run Project 
 1. Clone this git repository
